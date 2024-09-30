@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import "./header.scss"
 
 const Header = () => {
@@ -11,17 +12,17 @@ const Header = () => {
         <div className="header__inner">
           <ul className="header__list">
             <li className="header__item">
-              
-              <link href="#">Eyeglasses</link>
+
+              <a href="/test">Eyeglasses</a>
             </li>
             <li className="header__item">
-              <link href="#">Sunglasses</link>
+              <a href="/">Sunglasses</a>
             </li>
             <li className="header__item">
-              <link href="#">Accessories</link>
+              {/* <Link to="#">Accessories</Link> */}
             </li>
             <li className="header__item">
-              <link href="#">About</link>
+              {/* <Link to="#">About</Link> */}
             </li>
           </ul>
         </div>

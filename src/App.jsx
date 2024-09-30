@@ -1,11 +1,26 @@
-import SliderTest from "./components/slider/sliderTest"
+import Home from "./components/home/home";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Test from "./test/test";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path: "/test",
+    element: <Test/>
+  },
+]);
 
 function App() {
 
   return (
     <>
-      <SliderTest/>
+       <RouterProvider router={router} />
     </>
   )
 }
