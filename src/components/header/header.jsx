@@ -2,10 +2,31 @@
 import "./header.scss"
 
 const Header = () => {
+
+
+
   return (
-    <div>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque incidunt inventore animi fugit officiis rem! Quia quasi blanditiis delectus ea, adipisci at voluptas ipsum asperiores inventore aliquid eveniet consectetur rem.
-    </div>
+    <header className="header">
+      <div className="container">
+        <div className="header__inner">
+          <ul className="header__list">
+            <li className="header__item">
+              
+              <link href="#">Eyeglasses</link>
+            </li>
+            <li className="header__item">
+              <link href="#">Sunglasses</link>
+            </li>
+            <li className="header__item">
+              <link href="#">Accessories</link>
+            </li>
+            <li className="header__item">
+              <link href="#">About</link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
   )
 }
 

@@ -16,10 +16,10 @@ const SliderTest = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src="https://pibig.info/uploads/posts/2022-11/1668750444_17-pibig-info-p-kotik-na-belom-fone-instagram-19.jpg" alt="cat" />
+        <img src="./assets/slider1.jpg" alt="cat"/>
       </div>
-      <div>
-        <img src="https://polinka.top/uploads/posts/2023-05/1685469920_polinka-top-p-kotik-na-belom-fone-kartinka-krasivo-8.jpg" alt="cat" />
+      {/* <div>
+        <img src="https://polink.top/uploads/posts/2023-05/1685469920_polinka-top-p-kotik-na-belom-fone-kartinka-krasivo-8.jpg" alt="cat" />
       </div>
       <div>
         <img src="https://pibig.info/uploads/posts/2022-11/1668750492_16-pibig-info-p-kotik-na-belom-fone-instagram-18.jpg" alt="cat" />
@@ -32,7 +32,7 @@ const SliderTest = () => {
       </div>
       <div>
         <img src="https://i.pinimg.com/1200x/3c/eb/18/3ceb18f58efb696d79a6bb68c8711b18.jpg" alt="cat" />
-      </div>
+      </div> */}
     </Slider>
 
     
