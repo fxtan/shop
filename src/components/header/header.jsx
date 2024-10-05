@@ -1,34 +1,24 @@
-
-import { Link } from "react-router-dom";
-import "./header.scss"
+import { navItems } from '../../constants/navigation';
+import './header.scss';
 
 const Header = () => {
-
-
-
   return (
     <header className="header">
       <div className="container">
         <div className="header__inner">
           <ul className="header__list">
-            <li className="header__item">
-
-              <a href="/test">Eyeglasses</a>
-            </li>
-            <li className="header__item">
-              <a href="/">Sunglasses</a>
-            </li>
-            <li className="header__item">
-              {/* <Link to="#">Accessories</Link> */}
-            </li>
-            <li className="header__item">
-              {/* <Link to="#">About</Link> */}
-            </li>
+            {navItems.map((element, id) => {
+              return (
+                <li key={id} className="header__item">
+                  <a href={element.link}>{element.name}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

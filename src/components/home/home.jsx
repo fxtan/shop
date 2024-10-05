@@ -1,12 +1,11 @@
-import SliderTest from "../slider/sliderTest"
-
+import SliderTest from '../slider/slider';
 
 const Home = () => {
   return (
     <div>
-      <SliderTest/>
+      <SliderTest />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

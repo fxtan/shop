@@ -1,3 +1,15 @@
-div{
-    color: red;
+.header{
+    &__list{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        gap: 50px;
+    }
+    &__inner{
+    margin: 16px 121px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #000;
 }
